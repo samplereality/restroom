@@ -13,8 +13,8 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 const int buttonPin = 8;
 int buttonState = 0;
 
-char* topText[] = {"whoever u r", "situp/standdown", "all y'all", "if ur a they", "l@s tod@s", "tg or not", "clocked?","queermerica :-)","3v3ry1 is ="};
-char* bottomText[] = {"u r welcome here", "come on in", "u r safe here", "shelter inside", "welcome here", "inside u r free", "pee where u want", "we don't care", "peace"};
+char* topText[] = {"whoever u r", "sitdown/standup", "all y'all", "if ur a they", "l@s tod@s", "tg or not", "clocked?","queermerica :-)","3v3ry1 is ="};
+char* bottomText[] = {"u r welcome here", "come on in", "u r safe here", "shelter inside", "welcome here", "inside u r free", "pee where u want", "this = ur space", "peace"};
 
 int i = 0;
 int j = 0;
